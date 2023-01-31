@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Favorite Things</title>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+        <h1>Favorite Things</h1>
+        <p>What are some of your favorite things?</p>
+        <form>
+          <ul>
+            <li><label for="name">What is your favorite nickname?</label>
+            <input id="name" type="text" name="name"></li>
+            <li><label for="color">What is your favorite color?</label>
+            <input id="color" type="text" name="color"></li>
+            <li><label for="season">What season do you like the best?</label>
+            <input id="season" type="text" name="season"></li>
+            <li><label for="pet">What animal do you like best?</label>
+            <input id="pet" type="text" name="pet"></li>
+          </ul>
+          <button id="submit"><strong>Let's See!</strong></button>
+        
+        <div id="faves" class="hidden>">
+          <h2>Your Favorite Things</h2>
+          <p>This amazing person, who likes to be called <span id="name">_______</span> has some favorite things. If we combined them all into the perfect moment, they would be walking a <span id="pet">_______</span> wearing a <span id="color">_______</span> sweater in the middle of <span id="season">_______</span>.</p>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
