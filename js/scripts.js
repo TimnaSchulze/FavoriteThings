@@ -16,7 +16,5 @@ window.onload = function() {
   document.querySelector("span#color").innerText = colorInput;
   document.querySelector("span#season").innerText = seasonInput;
   document.querySelector("span#pet").innerText = petInput;
-
   };
 }
-
